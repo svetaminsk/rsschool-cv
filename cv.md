@@ -31,7 +31,7 @@ My name is Svetlana and I am experienced QA Engineer who wants to extend her kno
 - API testing (Postman, Fiddler), testing third-party API calls;
 - SQL queries (MS SQL Server Management): select, insert, delete, join;
 - performance testing using JMeter;
-- writing automated tests (c# + selenium, cypress);
+- writing automated tests (cypress);
 - training of new people within the project;
 - communication with team and customers.
 
