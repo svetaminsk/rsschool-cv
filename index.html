@@ -3,11 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sviatlana Yeudakimava</title>
 </head>
 <body>
-    <h1 class="logo_name">Sviatlana <span class="purple">Yeudakimava</span></h1>
-    <h2 class="logo_occupation">Frontend Developer</h2>
+    <div class="container">
+        <header class="header">
+            <div class="header_logo_container">
+                <h1 class="logo_name">Sviatlana <span class="purple">Yeudakimava</span></h1>
+                <h2 class="logo_occupation">Frontend Developer</h2>
+                <img class="img" src="img/avatar.jpg" alt="pic">
+            </div>
+                <nav class="header_list">
+                    <ol>
+                        <li class="email">
+                            <img src="img/email.svg" alt="email" class="email">
+                            <a href="mailto:7757331@gmail.com">E-mail</a>
+                        </li>
+                        <li class="github">
+                            <img src="img/github.svg" alt="github" class="github">
+                            <a href="https://github.com/svetaminsk">Github</a>
+                        </li>
+                        <li class="linkedin">
+                            <img src="img/linkedin.svg" alt="linkedin" class="linkedin">
+                            <a href="https://www.linkedin.com/in/sviatlana-yeudakimava-b64861203/">LinkedIn</a>
+                        </li>
+                    </ol>
+                </nav>
+            <hr>
+        </header>
+        <main class="info">
+            <h2 class="about">About me</h2>
+            <div class="descr">
+                I switched to QA Engeneer after working as a finansist for 14 years. In 2023 I started automating testing using JS. I applied Javascript courses and found out that I really enjoyed it. Studying in the courses I figured out that web development combines analytic and creativity, serious problem solving and creating funny things and moreover, it requires constantly learning what I like doing more than anything.
+            </div>
+            <h2 class="skills">Skills</h2>
+            <div class="descr">
+                <ul>
+                    <li>Base knowledge of JavaScript and React</li>
+                    <li>Programming skills in HTML, CSS</li>
+                    <li>Experience with Visual Studio Code with extensions</li>
+                    <li>Familiarity with git (branching, merging, pull requests)</li>
+                    <li>Good problem-solving skills, strategic thinking, effective communication skills, attention to details</li>
+                </ul>
+            </div>
+            <h2 class="code">Code example</h2>
+            <div class="code">
+                <pre>
+                    <code>
+const calc = (number1) =&amp; {
+    const array = [];
+    array[0] = number1;
+    const next = getRandomNumber(1, 10);
+    for (let i = 0; i &lt; 9; i += 1) {
+        array.push(array[0 + i] + next);
+    } return array;
+};
+                    </code>
+                </pre>
+            </div>
+            <h2 class="exp">Experience</h2>
+            <div class="descr">
+                X Company, 2021 - present <br>
+                QA Engineer
+                <br><br>
+                My JS Projects <br>
+                <a href="https://svetaminsk.github.io/JS_pet_projects/Uber/" class="project">Uber</a> <br>
+                <a href="https://svetaminsk.github.io/JS_pet_projects/WordpressProject/src/index.html" class="project">Wordpress</a>
+            </div>
+            <h2 class="education">Education</h2>
+            <div class="descr">
+                Rolling Scope School 06/2024 – present JS /Front-end <br>
+                Udemy 01/2021 – 03/2021 Online course “Web developer” by Ivan Petrichenko <br>
+                Hexlet courses, 09/2020 – 03/2021 Online course “Frontend Developer”. During the course I studied the following topics: console and git basics, HTML and CSS, Javascript (arrays, functions, abstractions, trees, OOP, OOD, HTTP, asynchronous programming, DOM API, polymorphism, React, Redux), testing. <br>
+                Belorussian State Economic University 2000 - 2005 Marketing Department
+            </div>
+            <h2 class="lang">Additional information</h2>
+            <div class="descr">
+                English language: B2 <br>
+                Spanish language: A2
+            </div>
+        </main>
+    </div>
+
+        <footer id="footer">
+            <div class="github">
+                <a href="https://github.com/svetaminsk">
+                    <img src="img/github.png" alt="github" class="github_img">
+                </a>
+            </div>
+            <div>2024</div>
+            <div class="rss">
+                <a href="https://rs.school/">
+                    <img src="img/rs_school_js.svg" alt="rss" class="rss_img">
+                </a>
+            </div>
+        </footer>
 </body>
 </html>
